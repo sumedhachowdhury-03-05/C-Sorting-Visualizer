@@ -1,0 +1,10 @@
+# Force GitHub to detect C as the repository language
+*.c linguist-language=C
+*.h linguist-language=C
+
+# Ignore other languages so they don't affect the percentage
+*.ipynb linguist-detectable=false
+*.py linguist-detectable=false
+*.js linguist-detectable=false
+*.json linguist-detectable=false
+*.md linguist-detectable=false
